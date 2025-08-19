@@ -27,15 +27,20 @@ class AnasayfaViewModel @Inject constructor(var krepo: KisilerRepository) : View
     }
 
     fun kisileriyukle() {
-        viewModelScope.launch {
-            kisilerListesi.value = krepo.kisileriyukle()
+        try {
+            viewModelScope.launch {
+                kisilerListesi.value = krepo.kisileriyukle()
+            }
+        } catch (e: Exception) {
         }
     }
 
     fun ara(aramaKelimesi: String) {
-        viewModelScope.launch {
-            kisilerListesi.value = krepo.ara(aramaKelimesi)
-        }
+        try {
+            viewModelScope.launch {
+                kisilerListesi.value = krepo.ara(aramaKelimesi)
+            }
+        } catch (e: Exception) { }
     }
 
 }
