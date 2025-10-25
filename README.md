@@ -1,5 +1,6 @@
 # KİŞİLER UYGULAMASI (REST API)
 
+Bu proje, Udemy platformunda yer alan Kasım Adalan'ın "Android Bootcamp Programı | Kotlin | 2025" adlı eğitim setinin bir parçası olarak geliştirilmiştir.
 Bu proje, modern Android geliştirme prensipleri kullanılarak geliştirilmiş bir **rehber (kişiler) uygulamasıdır**.
 Kullanıcılar kişileri kaydedebilir, görüntüleyebilir, güncelleyebilir, silebilir ve arama yapabilir.
 
@@ -71,6 +72,7 @@ git clone https://github.com/abdurrahmansagir21/KisilerUygulamasiRestAPI.git
 
 # CONTACTS APP (REST API)
 
+This project was developed as part of the "Android Bootcamp Program | Kotlin | 2025" course by instructor Kasım Adalan on the Udemy platform.
 This project is a **Contacts (Phonebook) App** developed using modern Android development principles.
 Users can add, view, update, delete, and search for contacts.
 
